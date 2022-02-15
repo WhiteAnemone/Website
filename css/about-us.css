@@ -1,0 +1,767 @@
+.about-us {
+    padding: 0 0 100px 0;
+}
+
+.about-us-list {
+    display: flex;
+    width: 100%;
+}
+
+.about-us-title {
+    font-weight: normal;
+    font-size: 48px;
+    color: #333333;
+    margin-bottom: 25px;
+}
+
+.about-us-text {
+    max-width: 1235px;
+    font-size: 16px;
+    line-height: 32px;
+    color: #333333;
+    margin-bottom: 50px;
+}
+
+.about-us-list-item-1 {
+    background-image: url(../img/Rectangle.jpg);
+    background-position: center;
+    background-size: cover;
+    max-width: 50%;
+    min-height: 622px;
+    display: flex;
+    align-items: flex-end;
+    margin-right: 30px;
+}
+
+.list-item-1-1 {
+    width: 100%;
+    display: flex;
+    min-height: 196px;
+    background: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 54px;
+}
+
+.list-item-1-1-text {
+    max-width: 550px;
+    font-weight: bold;
+    color: #fff;
+    font-size: 16px;
+    line-height: 30px;
+    margin-right: 50px;
+}
+
+.list-btn-link {
+    text-decoration: none;
+    color: #fff;
+    border: 3px solid #FF9900;
+    background: rgba(255, 255, 255, 0);
+    font-weight: bold;
+    padding: 18px 35px;
+    transition: all .2s ease-in-out;
+}
+
+.list-btn-link:hover {
+    background: #FF9900;
+    cursor: pointer;
+}
+
+.list-btn-link:focus {
+    background: #FF9900;
+    border: none;
+}
+
+.list-btn-link:active {
+    background: #E1670E;
+    border: none;
+}
+
+.circle {
+    position: relative;
+    padding-left: 237px;
+    display: flex;
+    align-items: center;
+}
+  
+.circle-img-1:after {
+    content: '';
+    position: absolute;
+    z-index: 1;
+    left: 60px;
+    top: 112px;
+    width: 120px;
+    height: 120px;
+    background-color: #FF9900;
+    border-radius: 50%;
+}
+  
+.circle-img-1:before {
+    content: '';
+    position: absolute;
+    z-index: 2;
+    left: 121px;
+    top: 70px;
+    width: 120px;
+    height: 132px;
+    background-image: url('../img/package.svg'); 
+    background-size: contain;
+    background-repeat: no-repeat; 
+}
+  
+.circle-img-2:after{
+    content: '';
+    position: absolute;
+    z-index: 1;
+    left: 59px;
+    top: 105px;
+    width: 130px;
+    height: 130px;
+    background-color: #FF9900;
+    border-radius: 50%;
+}
+
+.circle-img-2:before{
+    content: '';
+    position: absolute;
+    z-index: 2;
+    left: 119px;
+    top: 73px;
+    width: 127px;
+    height: 127px;
+    background-image: url('../img/settings.svg');  
+    background-size: contain;
+    background-repeat: no-repeat; 
+}
+
+.round {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    background: #FF9900;
+    border-radius: 50%;
+    margin-top: 80px;
+    margin-left: 70px;
+}
+
+.about-us-rectangles {
+    width: 50%;
+}
+
+.rectangle {
+    max-width: 100%;
+    min-height: 295px;
+    padding: 65px 110px 33px 300px;
+    border: 1px solid #CACACA;
+    position: relative;
+}
+
+.rectangle:first-child {
+    margin-bottom: 30px;
+}
+
+.rectangle-text {
+    max-width: 452px;
+    font-size: 16px;
+    line-height: 32px;
+    color: #333333;  
+}
+
+.px24 {
+    font-size: 24px;
+    display: block;
+    margin-bottom: 8px;
+}
+
+@media (max-width: 1600px) {
+    .rectangle {
+        padding: 40px 30px 30px 40px;
+    }
+
+    .circle {
+        display: block;
+        padding: 0;
+    }
+
+    .circle-img-1:before {
+        left: 100px;
+        top: 13px;
+        width: 100px;
+        height: 100px;
+    }
+
+    .circle-img-1:after {
+        left: 45px;
+        top: 43px;
+        width: 100px;
+        height: 100px;
+    }
+
+    .px24 {
+        margin-left: 190px;
+        min-height: 100px;
+        width: 350px;
+    }
+
+    .rectangle-text {
+        max-width: 100%;
+    }
+
+    .circle-img-2::before {
+        left: 90px;
+        top: 13px;
+        width: 100px;
+        height: 100px;
+    }
+
+    .circle-img-2:after {
+        left: 45px;
+        top: 43px;
+        width: 100px;
+        height: 100px;
+    }
+
+    .list-item-1-1 {
+        min-height: 176px;
+        padding: 30px 50px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .about-us-list {
+        flex-direction: column;
+    }
+
+    .about-us-list-item-1 {
+        max-width: 100%;
+        min-height: 50vw;
+        margin-bottom: 32px;
+        margin: 0 auto 32px auto;
+        background-position: top;
+    }
+
+    .about-us-rectangles {
+        width: 100%;
+        display: flex;
+        align-self: center;
+        flex-direction: column
+    }
+
+    .rectangle {
+        min-height: 0;
+        padding: 40px 30px 30px 250px;
+    }
+
+    .px24 {
+        min-height: 0;
+        margin-left: 0;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .circle-img-1:before, .circle-img-2:before {
+        top: 25px;
+    }
+
+    .circle-img-1:after, .circle-img-2:after {
+        top: 55px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .about-us {
+        padding: 0 0 84px 0;
+    }
+
+    .about-us-title {
+        margin-bottom: 11px;
+    }
+
+    .about-us-text {
+        max-width: 925px;
+        margin-bottom: 62px;
+    }
+
+    .about-us-list {
+        flex-direction: column;
+        max-width: 924px;
+    }
+
+    .about-us-list-item-1 {
+        width: 100%;
+        max-width: none;
+        min-height: 640px;
+        margin-top: 0;
+        margin-right: 0;
+        background-image: url(../img/Rectangle-1.jpg);
+        background-size: cover;
+    }
+
+    .list-item-1-1 {
+        min-height: 195px;
+        background: rgba(0, 0, 0, 0.5);
+        padding: 50px;
+        flex-direction: row;
+    }
+
+    .list-item-1-1-text {
+        max-width: 490px;
+        line-height: 32px;
+        font-size: 16px;
+        color: #fff;
+        text-align: initial;
+    }
+
+    .list-btn-link {
+        color: #fff;
+        margin: 0;
+    }
+
+    .about-us-rectangles {
+        max-width: 924px;
+        width: 100%;
+    }
+
+    .rectangle {
+        max-width: 924px;
+        padding: 65px 145px 65px 317px;
+    }
+
+    .circle {
+        padding-left: 240px;
+    }
+
+    .circle-img-1:before {
+        left: 138px;
+        top: 64px;
+        width: 119px;
+        height: 132px;
+    }
+
+    .circle-img-1:after {
+        left: 76px;
+        top: 107px;
+        width: 120px;
+        height: 120px;
+    }
+
+    .circle-img-2:before {
+        left: 130px;
+        top: 60px;
+        width: 135px;
+        height: 135px;
+    }
+
+    .circle-img-2:after {
+        left: 75px;
+        top: 100px;
+        width: 120px;
+        height: 120px;
+    }
+
+    .px24 {
+        margin-bottom: 4px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 950px) {
+    .list-item-1-1 {
+        flex-direction: column;
+        padding: 30px 30px;
+    }
+
+    .list-item-1-1-text {
+        font-size: 14px;
+        max-width: 100%;
+        text-align: center;
+        margin-right: 0;
+    }
+
+    .rectangle {
+        padding: 65px 50px 65px 280px;
+    }
+
+    .circle-img-1:before {
+        left: 110px;
+        top: 60px;
+    }
+
+    .circle-img-2::before {
+        left: 95px;
+        top: 45px;
+    }
+
+    .circle-img-1:after {
+        left: 48px;
+        top: 101px;
+    }
+
+    .circle-img-2:after {
+        left: 60px;
+        top: 93px;
+    }
+}
+
+@media (max-width: 768px) {
+    .about-us-text {
+        max-width: 668px;
+    }
+    
+    .about-us-list-item-1 {
+        width: 100%;
+        min-height: 650px;
+        background-image: url('../img/Rectangle-2.jpg');
+        background-size: cover;
+    }
+
+    .list-item-1-1 {
+        min-height: 196px;
+        background-color: rgba(0,0,0,.5);
+        flex-direction: row;
+        padding: 34px 40px;
+    }
+
+    .list-item-1-1-text {
+        font-size: 16px;
+        text-align: initial;
+        margin-right: 50px;
+    }
+
+    .rectangle {
+        max-width: 668px;
+        min-height: 235px;
+        padding: 35px 30px 35px 170px;
+        margin-left: 0px;
+    }
+
+    .rectangle-text {
+        max-width: 452px;
+        line-height: 32px;
+    }
+
+    .px24 {
+        margin-bottom: 5px;
+        width: 100%;
+    }
+    
+    .circle {
+        padding-left: 255px;
+    }
+
+    .circle-img-1:before {
+        width: 71px;
+        height: 79px;
+        top: 67px;
+        left: 66px;
+    }
+
+    .circle-img-1:after {
+        width: 72px;
+        height: 72px;
+        top: 92px;
+        left: 30px;
+    }
+
+    .circle-img-2:before {
+        width: 81px;
+        height: 81px;
+        left: 62px;
+        top: 66px;
+    }
+
+    .circle-img-2:after {
+        width: 76px;
+        height: 76px;
+        top: 89px;
+        left: 30px;
+    }
+}
+
+@media (max-width: 760px) {
+    .list-item-1-1 {
+        flex-direction: column;
+    }
+
+    .list-item-1-1-text {
+        font-size: 14px;
+        max-width: 100%;
+        text-align: center;
+        margin-right: 0;
+    }
+
+    .list-btn-link {
+        margin-left: 0;
+        padding: 10px 15px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 690px) {
+    .about-us-text {
+        margin-bottom: 32px;
+    }
+
+    .about-us-list-item-1 {
+        background-image: none;
+        margin-bottom: 0;
+        min-height: 330px;
+        align-items: initial;
+        margin-bottom: 32px;
+    }
+
+    .list-item-1-1 {
+        padding: 0;
+        background-color: transparent;
+    }
+
+    .list-item-1-1::before {
+        content: '';
+        min-width: 100%;
+        min-height: 70vw;
+        background-image: url(../img/Rectangle-2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+        margin-bottom: 15px;
+    }
+
+    .list-item-1-1-text {
+        font-size: 16px;
+        font-weight: normal;
+        color: #333333;
+        margin-bottom: 15px;
+    }
+
+    .list-btn-link {
+        padding: 10px 15px;
+        font-size: 16px;
+        color: #333333;
+    }
+
+    .px24 {
+        font-size: 20px;
+    }
+} 
+
+@media (max-width: 580px) {
+    .about-us-list-item-1 {
+        margin-bottom: 10px;
+    }
+    
+    .rectangle {
+        border: none;
+    }
+
+    .rectangle:first-child {
+        margin-bottom: 0;
+    }
+
+    .px24 {
+        font-size: 22px;
+        display: block;
+        line-height: 25px;
+    }
+
+    .rectangle-text {
+        font-size: 14px;
+        max-width: 552px;
+        line-height: 30px;
+    }
+      
+    .circle-img-1:after{
+        width: 70px;
+        height: 70px;
+        top: 57px;
+        left: 30px;
+    }
+      
+    .circle-img-1:before{
+        left: 68px;
+        top: 35px;
+        width: 70px;
+        height: 70px;
+    }
+
+    .circle-img-2:after{
+        width: 70px;
+        height: 70px;
+        top: 57px;
+        left: 30px;
+    }
+      
+    .circle-img-2:before{
+        left: 58px;
+        top: 35px;
+        width: 70px;
+        height: 70px;
+    }
+}
+
+@media (max-width: 520px) {
+    .about-us-list-item-1 {
+        margin-bottom: 50px;
+    }
+
+    .about-us-rectangles {
+        text-align: center;
+    }
+
+    .rectangle {
+        padding: 100px 0 30px 0;
+    }
+
+    .circle-img-1:before {
+        left: 30px;
+        right: 0;
+        margin: auto;
+        top: -15px;
+    }
+
+    .circle-img-2:before {
+        left: 30px;
+        right: 0;
+        margin: auto;
+        top: -15px;
+    }
+
+    .circle-img-1:after, .circle-img-2:after {
+        top: 7px;
+        left: 0;
+        right: 50px;
+        margin: auto;
+    }
+}
+
+@media (max-width: 320px) {
+    .about-us {
+        margin: 0 auto;
+        padding: 0 0 60px 0;
+    }
+
+    .about-us-title {
+        font-size: 24px;
+        margin-bottom: 22px;
+    }
+
+    .about-us-text {
+        max-width: 290px;
+        font-size: 14px;
+        line-height: 28px;
+        margin-bottom: 13px;
+    }
+
+    .about-us-list-item-1 {
+        display: flex;
+        min-height: 360px;
+        margin-top: 0;
+        margin-bottom: 0;
+        background-image: url('../img/Rectangle-7.jpg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: top;
+        width: 290px;
+    }
+
+    .list-item-1-1 {
+        flex-direction: column;
+        background: none;
+        margin: 0;
+        padding-top: 210px;
+    }
+
+    .list-item-1-1::before {
+        display: none;
+    }
+
+    .list-item-1-1-text {
+        font-style: normal;
+        font-weight: normal;
+        text-align: left;
+        font-size: 14px;
+        line-height: 28px;
+        padding: 0;
+        width: 290px;
+        color: #333333;
+    }
+
+    .list-btn-link {
+        margin-left: -125px;
+        margin-top: 0;
+        text-align: center;
+        padding: 10px;
+        width: 162px;
+        height: 40px;
+        color: #FF9900;
+        font-size: 12px;
+    }
+
+    .rectangle {
+        max-width: 290px;
+        padding: 0;
+        border: none;
+    }
+
+    .rectangle:first-child {
+        margin-bottom: 90px;
+    }
+
+    .about-us-rectangles {
+        margin-top: 0;
+        padding: 132px 0 0 0;
+    }
+
+    .px24 {
+        font-size: 18px;
+        display: block;
+        line-height: 22px;
+        letter-spacing: -0.5px;
+    }
+
+    .rectangle-text {
+        font-size: 14px;
+        max-width: 290px;
+        line-height: 28px;
+    }
+
+    .circle-text {
+        margin: 0;
+        min-height: 192px;
+    }
+
+    .circle {
+        position: relative;
+        padding-left: 0px;
+        display: flex;
+        align-items: initial;
+        margin-top: 0px;
+    }
+      
+    .circle-img-1:after{
+        width: 43px;
+        height: 43px;
+        top: -55px;
+        left: 0px;
+    }
+      
+    .circle-img-1:before{
+        left: 21px;
+        top: -61px;
+        width: 43px;
+        height: 47px;
+    }
+      
+    .circle-img-2:after{
+        width: 43px;
+        height: 43px;
+        top: -56px;
+        left: 0;
+    }
+      
+    .circle-img-2:before{
+        left: 20px;
+        top: -62px;
+        width: 43px;
+        height: 47px;
+    }
+}

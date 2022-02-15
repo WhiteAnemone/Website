@@ -1,0 +1,234 @@
+.banner {
+    padding: 0 0 100px 0;
+}
+
+.banner_container {
+    background-position: center;
+    min-height: 620px;
+    padding: 103px 50px 0 80px;
+}
+
+.swiper {
+    max-width: 1800px;
+    height: 668px;
+}
+
+.banner_swiper_1 {
+    background-image: url(../img/balconies.jpg);
+    background-size: cover;
+}
+
+.banner_swiper_2 {
+    background-image: url(../img/apartment-building.jpg);
+    background-size: cover;
+    
+}
+
+.banner_swiper_3 {
+    background-image: url(../img/brown-and-blue-glass.jpg);
+    background-size: cover;
+}
+
+.banner_title {
+    max-width: 900px;
+    font-weight: 800;
+    font-size: 70px;
+    color: #fff;
+    line-height: 86px;
+    margin: 0 0 22px 0;
+
+}
+
+.banner_text {
+    max-width: 856px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 90px;
+}
+
+.banner_btn {
+    width: 280px;
+    height: 80px;
+    font-size: 24px;
+    font-weight: bold;
+    background: #FF9900;
+    color: #fff;
+    border: none;
+    transition: all .2s ease-in-out;
+}
+
+.banner_btn:hover {
+    background: rgba(255, 153, 0, 0.7);
+    cursor: pointer;
+}
+
+.banner_btn:focus {
+    background: rgba(255, 153, 0, 0.7);
+    border: none;
+}
+
+.banner_btn:active {
+    background: #E1670E;
+}
+
+.swiper-pagination-bullet {
+    width: var(--swiper-pagination-bullet-width,var(--swiper-pagination-bullet-size,15px));
+    height: var(--swiper-pagination-bullet-height,var(--swiper-pagination-bullet-size,15px));
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.swiper-pagination-bullet:focus {
+    background: #FFF;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 16px var(--swiper-pagination-bullet-horizontal-gap,9px);
+}
+
+@media (max-width: 1400px) {
+    .banner_title {
+        font-size: 65px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .banner {
+        padding: 0 0 82px 0;
+    }
+
+    .banner_container {
+        background-size:cover;
+        max-width: 924px;
+        min-height: 100px;
+        padding: 17.5% 8.5%;
+    }
+
+    .banner_swiper_1 {
+        background-image: url(../img/balconies-2.jpg);
+    }
+
+    .banner_title {
+        font-size: 6vw;
+        line-height: 73px;
+        margin-bottom: 16px;
+    }
+
+    .banner_text {
+        max-width: 658px;
+        font-size: 1.9vw;
+        line-height: 24px;
+        margin-bottom: 6vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .banner_container {
+        background-size:cover;
+        max-width: 668px;
+        min-height: 100px;
+        padding: 24% 40px;
+    }
+
+    .banner_swiper_1 {
+        background-image: url(../img/balconies-2.jpg);
+    }
+    
+    .banner_title {
+        font-size: 50px;
+        max-width: 721px;
+        line-height: 60px;
+    }
+
+    .banner_text {
+        max-width: 658px;
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
+
+@media (max-width: 760px) {
+    .banner_title {
+       font-size: 42px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .banner_container {
+        padding: 80px 40px;
+    }
+
+    .banner_title {
+        font-size: 38px;
+        line-height: 50px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .banner_text {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .banner_btn {
+        display: block;
+        width: 220px;
+        height: 70px;
+        font-size: 18px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 320px) {
+    .swiper {
+        height: 308px;
+    }
+
+    .banner {
+        padding: 0 0 60px 0;
+    }
+
+    .banner_container {
+        max-width: 290px;
+        min-height: 308px;
+        padding: 60px 22px;
+    }
+
+    .banner_swiper_1 {
+        background-image: url(../img/balconies-3.jpg);
+    }
+
+    .banner_title {
+        width: 247px;
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        margin: 0 0 8px 0;
+    }
+
+    .banner_text {
+        max-width: 243px;
+        font-size: 12px;
+        line-height: 15px;
+        text-align: center;
+        font-style: normal;
+        font-weight: 500;
+        margin: 0 0 34px 0;
+    }
+
+    .banner_btn {
+        display: block;
+        width: 162px;
+        height: 40px;
+        text-align: center;
+        font-size: 12px;
+        margin: 0 auto;
+    }
+
+    .swiper-pagination-bullet {
+        width: var(--swiper-pagination-bullet-width,var(--swiper-pagination-bullet-size,10px));
+        height: var(--swiper-pagination-bullet-height,var(--swiper-pagination-bullet-size,10px));
+    }
+}
